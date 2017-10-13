@@ -1,0 +1,67 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/AppDefaultButtonStyle</item>
+        <item name="buttonStyle">@style/AppDefaultButtonStyle</item>
+        <item name="alertDialogTheme">@style/AppAlertDialog</item>
+        <item name="dialogTheme">@style/AppDialog</item>
+    </style>
+
+    <style name="AppTheme" parent="AppBaseTheme">
+
+    </style>
+
+    <!-- Default button style -->
+    <style name="AppDefaultButtonStyle" parent="@style/Widget.AppCompat.Button">
+        <item name="android:textColor">@color/defaultButtonTextColor</item>
+        <item name="android:background">@drawable/default_button_background_selector</item>
+    </style>
+
+    <style name="InputLabel" parent="TextAppearance.AppCompat.Caption">
+        <item name="android:paddingBottom">@dimen/input_label_vertical_spacing</item>
+        <item name="android:paddingLeft">@dimen/input_label_horizontal_spacing</item>
+        <item name="android:paddingRight">@dimen/input_label_horizontal_spacing</item>
+        <item name="android:textColor">@color/colorAccent</item>
+    </style>
+
+    <!--<style name="PreferenceItem">
+        <item name="android:drawableRight">@drawable/ic_arrow_right</item>
+        <item name="android:drawablePadding">5dp</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:textAppearance">@android:style/TextAppearance.Medium</item>
+    </style>-->
+
+    <style name="AppDialog" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/AppDefaultButtonStyle</item>
+        <item name="buttonStyle">@style/AppDefaultButtonStyle</item>
+    </style>
+
+    <style name="AppAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:windowBackground">@color/colorPrimary</item>
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:buttonStyle">@style/AppDefaultButtonStyle</item>
+        <item name="buttonStyle">@style/AppDefaultButtonStyle</item>
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+</resources>
